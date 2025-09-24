@@ -7,13 +7,6 @@ struct Node{
     struct Node* next;
 };
 
-/*
-Estás recibiendo un char, es decir, un solo carácter, 
-no una cadena de caracteres. Además, incluso si fuera 
-una cadena (char*), no podrías asignarla directamente 
-a newNode->nombre, que es un arreglo.
-*/
-
 struct Node* createNode(const char* nombre){
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
     if (newNode == NULL){
@@ -22,7 +15,7 @@ struct Node* createNode(const char* nombre){
     }
 
 /*
-Tienes que cambiar la firma de la función para recibir 
+Hay que cambiar la firma de la función para recibir 
 un char* (una cadena) y usar strcpy para copiar el 
 contenido en el arreglo nombre[20]
 */
