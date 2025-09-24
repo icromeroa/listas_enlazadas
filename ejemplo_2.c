@@ -42,7 +42,7 @@ int main() {
     struct Node* name1 = createNode("Perseo");
     struct Node* name2 = createNode("Paris");
     struct Node* name3 = createNode("Aquiles");
-    struct Node* name4 = createNode("Menelao");
+    struct Node* name4 = createNode("Poseidón");
 
     // enlazar hacia adelante
     name1->next = name2;
