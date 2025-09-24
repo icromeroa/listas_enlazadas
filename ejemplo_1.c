@@ -45,7 +45,7 @@ void printList(struct Node* name1){
 
 
 int main(){
-    struct Node* name1 = createNode("Marta");
+    struct Node* name1 = createNode("Afrodita");
     struct Node* name2 = createNode("Luisa");
     struct Node* name3 = createNode("Andrea");
     struct Node* name4 = createNode("Maria");
